@@ -1,0 +1,36 @@
+.box {
+  max-width: 500px;
+}
+
+.box--position {
+  margin: 70px auto 0;
+}
+
+.form__input-element {
+  margin-bottom: 20px;
+}
+
+.notification--position {
+  margin-top: 20px;
+}
+
+.appearaDisappearAnimation-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.appearaDisappearAnimation-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.appearaDisappearAnimation-exit {
+  opacity: 1;
+}
+
+.appearaDisappearAnimation-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
